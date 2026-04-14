@@ -155,10 +155,21 @@ header.hero {
 .page-image-placeholder .page-img {
     width: 100%;
     height: 420px;
-    object-fit: cover;
     object-position: center top;
     display: block;
     border-radius: 16px;
+}
+
+.page-img-fill {
+    object-fit: fill;
+}
+
+.page-img-cover {
+    object-fit: cover;
+}
+
+.page-img-scale-down {
+    object-fit: scale-down;
 }
 
 .card-image-placeholder span,
